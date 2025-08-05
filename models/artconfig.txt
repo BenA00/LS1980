@@ -1,0 +1,84 @@
+// ------- FACTION SKINS ---------
+// only the faction skins, player skins in separate file pls
+
+// LSPD
+
+// PATROL
+AddCharModel(0, 2001, "bmypd1.dff", "bympd1.txd")
+AddCharModel(0, 2002, "hmosgt1.dff", "hmosgt1.txd")
+AddCharModel(0, 2003, "wmypd3.dff", "wympd3.txd")
+AddCharModel(0, 2004, "hmypd2.dff", "hmypd2.txd")
+AddCharModel(0, 2005, "hmypd1.dff", "hmypd1.txd")
+AddCharModel(0, 2006, "pdbik1.dff", "pdbik1.txd")
+AddCharModel(0, 2007, "wfypd1.dff", "wfypd1.txd")
+AddCharModel(0, 2008, "wmopd1.dff", "wmopd1.txd")
+AddCharModel(0, 2009, "wmypd1.dff", "wmypd1.txd")
+AddCharModel(0, 2010, "wmypd2.dff", "wmypd2.txd")
+AddCharModel(0, 2011, "wmypd4.dff", "wmypd4.txd")
+AddCharModel(0, 2028, "bmypd2.dff", "bmypd2.txd")
+AddCharModel(0, 2029, "ofypd1.dff", "ofypd1.txd")
+
+// DET
+AddCharModel(0, 2012, "bmdet1.dff", "bmdet1.txd")
+AddCharModel(0, 2013, "hmdet1.dff", "hmdet1.txd")
+AddCharModel(0, 2014, "wmdet2.dff", "wmdet1.txd")
+
+// SWAT
+// BDU
+AddCharModel(0, 2015, "bdumorena.dff", "bdumorena.txd")
+AddCharModel(0, 2016, "bdunegra.dff", "bdunegra.txd")
+AddCharModel(0, 2017, "bduasiatico.dff", "bduasiatico.txd")
+AddCharModel(0, 2018, "bdubranco.dff", "bdubranco.txd")
+AddCharModel(0, 2019, "bduhispanico.dff", "bduhispanico.txd")
+AddCharModel(0, 2020, "bdunegro.dff", "bdunegro.txd")
+
+// Full Gear
+AddCharModel(0, 2021, "fullgeardobradaasiatico.dff", "fullgeardobradaasiatico.txd")
+AddCharModel(0, 2022, "fullgeardobradahispanico.dff", "fullgeardobradahispanico.txd")
+AddCharModel(0, 2023, "fullgeardobradabranco.dff", "fullgeardobradabranco.txd")
+AddCharModel(0, 2024, "fullgeardobradamorenado.dff", "fullgeardobradamorenado.txd")
+AddCharModel(0, 2025, "fullgeardobradanegro.dff", "fullgeardobradanegro.txd")
+AddCharModel(0, 2026, "fullgearmorena.dff", "fullgearmorena.txd")
+AddCharModel(0, 2027, "fullgearnegra.dff", "fullgearnegra.txd")
+
+// ESB
+
+
+
+
+
+// WSB
+
+
+
+
+
+
+// BBP
+
+
+
+
+
+
+// AOD
+
+
+
+
+
+// OGF
+
+
+
+
+
+
+
+
+
+
+
+
+
+
