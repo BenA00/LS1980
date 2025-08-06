@@ -2,6 +2,10 @@
 
 #include <a_samp>
 #include <sscanf2>
+#include "samp_bcrypt.inc"
+#include "sqlitei.inc"
+#include "streamer.inc"
+#include "sscanf2.inc"
 
 #define CGEN_MEMORY 60000
 #define YSI_NO_HEAP_MALLOC
@@ -15,8 +19,9 @@ DEFINE_HOOK_REPLACEMENT(Dyn, Dynamic);
 #include "YSI_Visual\y_commands.inc"
 
 
-
+#include "basesystems/database.inc"
 #include "admin/data.inc"
+#include "basesystems/login.inc"
 #include "help/cmds"
 #include "store_job/data.inc"
 
@@ -54,6 +59,7 @@ public OnGameModeInit()
 {
 	// Don't use these lines if it's a filterscript
 	SetGameModeText("LS 1980 Testing");
+	OpenDatabase();
 	AddPlayerClass(0,1828.5991,-1849.2347,13.5781,192.4898,0,0,0,0,0,0);
 	AddStaticVehicleEx(463, 1356.9719,-1753.5742,13.3624,239.2360, 1, 1, 60000);
 	AddStaticVehicleEx(463, 1357.3567,-1751.4238,13.3719,239.2360, 1, 1, 60000);
@@ -70,6 +76,7 @@ public OnGameModeInit()
 
 public OnGameModeExit()
 {
+	CloseDatabase();
 	return 1;
 }
 
